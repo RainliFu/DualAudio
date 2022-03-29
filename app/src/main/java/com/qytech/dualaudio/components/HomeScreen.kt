@@ -17,10 +17,10 @@ import com.qytech.dualaudio.R
 import timber.log.Timber
 
 fun testVideoPrimary(context: Context): AssetFileDescriptor =
-    context.resources.openRawResourceFd(R.raw.test_audio1)
+    context.resources.openRawResourceFd(R.raw.honeysnowcity)
 
 fun testVideoSecondary(context: Context): AssetFileDescriptor =
-    context.resources.openRawResourceFd(R.raw.test_audio2)
+    context.resources.openRawResourceFd(R.raw.pokemon)
 
 @Composable
 fun HomeScreen() {

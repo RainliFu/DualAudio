@@ -18,8 +18,8 @@ import timber.log.Timber
 
 
 enum class AudioSession(val id: Int) {
-    PRIMARY(121),
-    SECONDARY(57)
+    PRIMARY(57),
+    SECONDARY(121)
 }
 
 @Composable
